@@ -1,0 +1,13 @@
+.Board {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+}
+
+.GameWon {
+  text-align: center;
+  color: green;
+  font-size: 3rem;
+}
